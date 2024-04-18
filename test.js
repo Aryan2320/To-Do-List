@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
         else{
             alert("This is To-List not a notepad kindly write text within 200 words Thank-You")
+            input.value = "";
         }
     });
 
